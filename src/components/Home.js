@@ -44,7 +44,7 @@ const Home = () => {
                 </div>
                 <div className='json-output-container'>
                     <label htmlFor="json-output">Formatted JSON Data</label>
-                    <textarea className='json-output' name='jsonOutput' defaultValue={outputData} style={(outputData === errorMessage) ? { color: 'red' } : { color: 'black' } || (typeof outputData === 'string') ? { color: 'green' } : { color: 'red' }} ></textarea>
+                    <textarea className='json-output' name='jsonOutput' defaultValue={outputData} style={(outputData === errorMessage) ? { color: 'red' } : { color: 'black' }}></textarea>
                 </div>
             </div>
         </section>
